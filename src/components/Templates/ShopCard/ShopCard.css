@@ -1,0 +1,22 @@
+.shop-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  align-items: center;
+  max-width: 60rem;
+}
+
+.shop-card-bottom {
+  display: flex;
+  align-self: stretch;
+  justify-content: space-between;
+}
+
+.shop button {
+  padding: 0;
+  margin: 0;
+}
+
+.shop-card img {
+  max-width: 8rem;
+}

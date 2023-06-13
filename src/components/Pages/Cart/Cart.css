@@ -1,0 +1,41 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  align-items: center;
+}
+
+.cart-item {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 1.25rem;
+  max-width: 25rem;
+  min-width: 20rem;
+}
+
+.cart-item > img {
+  max-width: 8rem;
+}
+
+.cart-item-description {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.cart-item-quantity {
+  position: absolute;
+  top: 50%;
+  right: -3rem;
+  display: flex;
+  gap: 1.7rem;
+}
+
+.checkout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 25rem;
+  min-width: 20rem;
+}
